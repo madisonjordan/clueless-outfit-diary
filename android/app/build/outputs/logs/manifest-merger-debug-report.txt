@@ -1,0 +1,249 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:1:1-28:12
+INJECTED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:1:1-28:12
+INJECTED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:1:1-28:12
+INJECTED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:1:1-28:12
+MERGED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:1:1-28:12
+MERGED from [:@react-native-community_async-storage] /Users/jehuti/MobileApps/clueless/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-vector-icons] /Users/jehuti/MobileApps/clueless/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-image-picker] /Users/jehuti/MobileApps/clueless/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
+MERGED from [:react-native-gesture-handler] /Users/jehuti/MobileApps/clueless/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.59.3] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/react-native-0.59.3.aar/47cd02b608ce5bb4a9a1c834f9bf4806/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/4c15ac7beb8bd41edd1eac7157165613/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/ea0ef1cf1258b45f147e5618750182cb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/3c71af9473cedb076c32d2134557689a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/7929278e6149604a2d34ddc9cb1d6002/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/251310cc4bd56276905dec2b38702fbe/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/ba0d13af31dc5c414574e20e9ae2d634/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/123a0cc488ac02ee25e8356948dbf372/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/8711659d1a1561bfadcb308ff82f0323/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/73e4cd5f47214d47b0e817d229d42815/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/8fdd17f1d15e63c74369626c2e7efad9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/fdcf74d03b9f4de275994235714385c1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/14105dc4cfdbb6aca274e5d64ad74e94/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/7dceceecc41e26367fc620c879016323/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/7b94baf8a6042807b94bae241021b92d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/03013bf492e239d20adaa4b57e2cbb5e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/9cf8b0afe52a91cdb41497fbfd2fc5f0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/191186b56564459f4d70809f961873bc/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a8ce6ec3d12bb086bb67c9ef09f0f674/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/0f00d6ea460e7ea2f5c3503660826a56/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/fecec8e8b035865d9bc6ca50601046f6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/c5600e94a3642d3f399bf79dd49dd42e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/57586d6738b48baeecd5d95654c7ebf1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/d24a36f99cb41c1fab7d7a349998cbb5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/b24124f3a98047d24105f08f6a9978d4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/261662817a61423aed5415b932f18beb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/97953d116f9cc6bbec6d5c4ff73812b8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/ccab9c7c9aa55711eeb2708b7431f1d6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/792f419b8c38c263206bcfa0aae7ea2f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/27d7a3abad0cf8526746d24f84a3054c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/48a425bff505ff435672f89a1f87f6b8/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/27f2d9f3593e3383452385ecb53d01ba/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/8dda01abb01b28bd1e194a01f4084388/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/01afa54ce197cd39aa7b33ec7416d352/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/jehuti/MobileApps/clueless/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /Users/jehuti/MobileApps/clueless/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /Users/jehuti/MobileApps/clueless/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+	package
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:2:3-25
+		INJECTED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:2:3-25
+		INJECTED from /Users/jehuti/MobileApps/clueless/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:1:1-28:12
+		INJECTED from /Users/jehuti/MobileApps/clueless/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/debug/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:1:1-28:12
+		INJECTED from /Users/jehuti/MobileApps/clueless/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:5:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:6:22-78
+application
+ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:8:5-26:19
+MERGED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:8:5-26:19
+MERGED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:8:5-26:19
+MERGED from [:react-native-image-picker] /Users/jehuti/MobileApps/clueless/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-image-picker] /Users/jehuti/MobileApps/clueless/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [com.facebook.react:react-native:0.59.3] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/react-native-0.59.3.aar/47cd02b608ce5bb4a9a1c834f9bf4806/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.59.3] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/react-native-0.59.3.aar/47cd02b608ce5bb4a9a1c834f9bf4806/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/03013bf492e239d20adaa4b57e2cbb5e/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/03013bf492e239d20adaa4b57e2cbb5e/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/9cf8b0afe52a91cdb41497fbfd2fc5f0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/9cf8b0afe52a91cdb41497fbfd2fc5f0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/8dda01abb01b28bd1e194a01f4084388/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/8dda01abb01b28bd1e194a01f4084388/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/03013bf492e239d20adaa4b57e2cbb5e/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:10:7-39
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:10:7-39
+	tools:ignore
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/debug/AndroidManifest.xml:7:75-114
+	android:roundIcon
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:12:7-52
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:12:7-52
+	tools:targetApi
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/debug/AndroidManifest.xml:7:54-74
+	android:icon
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:11:7-41
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:11:7-41
+	android:allowBackup
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:13:7-34
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:13:7-34
+	android:theme
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:14:7-38
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:14:7-38
+	android:usesCleartextTraffic
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/debug/AndroidManifest.xml:7:18-53
+	android:name
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:9:7-38
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:9:7-38
+activity#com.clueless.MainActivity
+ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:15:7-24:18
+	android:label
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:17:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:19:9-51
+	android:configChanges
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:18:9-79
+	android:name
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:16:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:20:9-23:25
+action#android.intent.action.MAIN
+ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:21:13-65
+	android:name
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:21:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:22:13-73
+	android:name
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:22:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:25:7-84
+	android:name
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml:25:17-81
+uses-sdk
+INJECTED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml
+MERGED from [:@react-native-community_async-storage] /Users/jehuti/MobileApps/clueless/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_async-storage] /Users/jehuti/MobileApps/clueless/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] /Users/jehuti/MobileApps/clueless/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/jehuti/MobileApps/clueless/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] /Users/jehuti/MobileApps/clueless/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] /Users/jehuti/MobileApps/clueless/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/jehuti/MobileApps/clueless/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/jehuti/MobileApps/clueless/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.59.3] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/react-native-0.59.3.aar/47cd02b608ce5bb4a9a1c834f9bf4806/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.59.3] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/react-native-0.59.3.aar/47cd02b608ce5bb4a9a1c834f9bf4806/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/4c15ac7beb8bd41edd1eac7157165613/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/4c15ac7beb8bd41edd1eac7157165613/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/ea0ef1cf1258b45f147e5618750182cb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/ea0ef1cf1258b45f147e5618750182cb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/3c71af9473cedb076c32d2134557689a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/3c71af9473cedb076c32d2134557689a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/7929278e6149604a2d34ddc9cb1d6002/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/7929278e6149604a2d34ddc9cb1d6002/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/251310cc4bd56276905dec2b38702fbe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/251310cc4bd56276905dec2b38702fbe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/ba0d13af31dc5c414574e20e9ae2d634/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/ba0d13af31dc5c414574e20e9ae2d634/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/123a0cc488ac02ee25e8356948dbf372/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/123a0cc488ac02ee25e8356948dbf372/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/8711659d1a1561bfadcb308ff82f0323/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/8711659d1a1561bfadcb308ff82f0323/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/73e4cd5f47214d47b0e817d229d42815/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/73e4cd5f47214d47b0e817d229d42815/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/8fdd17f1d15e63c74369626c2e7efad9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/8fdd17f1d15e63c74369626c2e7efad9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/fdcf74d03b9f4de275994235714385c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/fdcf74d03b9f4de275994235714385c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/14105dc4cfdbb6aca274e5d64ad74e94/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/14105dc4cfdbb6aca274e5d64ad74e94/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/7dceceecc41e26367fc620c879016323/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/7dceceecc41e26367fc620c879016323/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/7b94baf8a6042807b94bae241021b92d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/7b94baf8a6042807b94bae241021b92d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/03013bf492e239d20adaa4b57e2cbb5e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/03013bf492e239d20adaa4b57e2cbb5e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/9cf8b0afe52a91cdb41497fbfd2fc5f0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/9cf8b0afe52a91cdb41497fbfd2fc5f0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/191186b56564459f4d70809f961873bc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/191186b56564459f4d70809f961873bc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a8ce6ec3d12bb086bb67c9ef09f0f674/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a8ce6ec3d12bb086bb67c9ef09f0f674/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/0f00d6ea460e7ea2f5c3503660826a56/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/0f00d6ea460e7ea2f5c3503660826a56/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/fecec8e8b035865d9bc6ca50601046f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/fecec8e8b035865d9bc6ca50601046f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/c5600e94a3642d3f399bf79dd49dd42e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/c5600e94a3642d3f399bf79dd49dd42e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/57586d6738b48baeecd5d95654c7ebf1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/57586d6738b48baeecd5d95654c7ebf1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/d24a36f99cb41c1fab7d7a349998cbb5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/d24a36f99cb41c1fab7d7a349998cbb5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/b24124f3a98047d24105f08f6a9978d4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/b24124f3a98047d24105f08f6a9978d4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/261662817a61423aed5415b932f18beb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/261662817a61423aed5415b932f18beb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/97953d116f9cc6bbec6d5c4ff73812b8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/97953d116f9cc6bbec6d5c4ff73812b8/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/ccab9c7c9aa55711eeb2708b7431f1d6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/ccab9c7c9aa55711eeb2708b7431f1d6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/792f419b8c38c263206bcfa0aae7ea2f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/792f419b8c38c263206bcfa0aae7ea2f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/27d7a3abad0cf8526746d24f84a3054c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/27d7a3abad0cf8526746d24f84a3054c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/48a425bff505ff435672f89a1f87f6b8/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/48a425bff505ff435672f89a1f87f6b8/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/27f2d9f3593e3383452385ecb53d01ba/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/27f2d9f3593e3383452385ecb53d01ba/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/8dda01abb01b28bd1e194a01f4084388/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/8dda01abb01b28bd1e194a01f4084388/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/01afa54ce197cd39aa7b33ec7416d352/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/jehuti/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/01afa54ce197cd39aa7b33ec7416d352/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/jehuti/MobileApps/clueless/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/jehuti/MobileApps/clueless/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jehuti/MobileApps/clueless/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/jehuti/MobileApps/clueless/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jehuti/MobileApps/clueless/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /Users/jehuti/MobileApps/clueless/android/app/src/debug/AndroidManifest.xml:5:22-75
+provider#com.imagepicker.FileProvider
+ADDED from [:react-native-image-picker] /Users/jehuti/MobileApps/clueless/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] /Users/jehuti/MobileApps/clueless/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] /Users/jehuti/MobileApps/clueless/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-60
+	android:exported
+		ADDED from [:react-native-image-picker] /Users/jehuti/MobileApps/clueless/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:react-native-image-picker] /Users/jehuti/MobileApps/clueless/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-56
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-picker] /Users/jehuti/MobileApps/clueless/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:58
+	android:resource
+		ADDED from [:react-native-image-picker] /Users/jehuti/MobileApps/clueless/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-55
+	android:name
+		ADDED from [:react-native-image-picker] /Users/jehuti/MobileApps/clueless/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
