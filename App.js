@@ -8,13 +8,15 @@ import AsyncStorage from '@react-native-community/async-storage';
 
 import CategoryList from './screens/CategoryList';
 import OutfitSearch from './screens/OutfitSearch';
+import SelectOutfitImage from './screens/SelectOutfitImage';
 import EditOutfit from './screens/EditOutfit';
 
 const MainNavigator = createStackNavigator(
     {
-        CategoryList:   {screen: CategoryList},
-        OutfitSearch:   {screen: OutfitSearch},
-        EditOutfit:      {screen: EditOutfit},
+        CategoryList:       {screen: CategoryList},
+        OutfitSearch:       {screen: OutfitSearch},
+        SelectOutfitImage:  {screen: SelectOutfitImage},
+        EditOutfit:         {screen: EditOutfit},
     },
     {
         initialRouteName: 'CategoryList',

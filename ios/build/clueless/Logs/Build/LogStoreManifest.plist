@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>25BADACC-E196-4501-A913-190BE610CED4</key>
+		<key>6D59EED7-5228-4D94-ACB2-5D1000BB82CB</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>25BADACC-E196-4501-A913-190BE610CED4.xcactivitylog</string>
+			<string>6D59EED7-5228-4D94-ACB2-5D1000BB82CB.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>W</string>
 			<key>schemeIdentifier-containerName</key>
@@ -27,15 +27,15 @@
 			<key>signature</key>
 			<string>Building project clueless with scheme clueless and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>576290730.45066905</real>
+			<real>576306826.62877202</real>
 			<key>timeStoppedRecording</key>
-			<real>576290732.103544</real>
+			<real>576306828.83352196</real>
 			<key>title</key>
 			<string>Building project clueless with scheme clueless and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>25BADACC-E196-4501-A913-190BE610CED4</string>
+			<string>6D59EED7-5228-4D94-ACB2-5D1000BB82CB</string>
 		</dict>
-		<key>F367FF5A-32DE-4904-B954-35ECD43B2E3C</key>
+		<key>C4461499-DD4E-482B-A71B-23053D6F2DF6</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -44,7 +44,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>F367FF5A-32DE-4904-B954-35ECD43B2E3C.xcactivitylog</string>
+			<string>C4461499-DD4E-482B-A71B-23053D6F2DF6.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>W</string>
 			<key>schemeIdentifier-containerName</key>
@@ -56,13 +56,13 @@
 			<key>signature</key>
 			<string>Building project clueless with scheme clueless and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>576290594.83233702</real>
+			<real>576316498.50684905</real>
 			<key>timeStoppedRecording</key>
-			<real>576290598.08566201</real>
+			<real>576316510.76044405</real>
 			<key>title</key>
 			<string>Building project clueless with scheme clueless and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>F367FF5A-32DE-4904-B954-35ECD43B2E3C</string>
+			<string>C4461499-DD4E-482B-A71B-23053D6F2DF6</string>
 		</dict>
 	</dict>
 </dict>
