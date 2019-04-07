@@ -51,20 +51,20 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-around',
         alignItems: 'center',
-        backgroundColor: 'pink',
+        backgroundColor: '#290017',
         //position: 'absolute',
         bottom: 0,
         maxHeight: '10%',
-        minWidth: '100%',
+        width: '100%',
     },
     button: {
         margin: '1%',
         padding: '3%',
         borderRadius: 20,
-        backgroundColor: 'red',
+        backgroundColor: '#B52F7B',
     },
     selectedButton: {
-        backgroundColor: 'white',
+        backgroundColor: '#B52F7B',
     },
 });
 
