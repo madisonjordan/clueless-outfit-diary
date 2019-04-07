@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity} from 'react-native';
 import Icon from 'react-native-vector-icons/dist/FontAwesome';
+import Icon2 from 'react-native-vector-icons/dist/FontAwesome5';
 
 export default class NavBar extends React.Component{
     
@@ -37,7 +38,7 @@ export default class NavBar extends React.Component{
                         [styles.button, styles.selectedButton] : 
                         styles.button}
                 >
-                        <Icon name="plus" size={30}/>
+                        <Icon2 name="tshirt" size={30}/>
                 </TouchableOpacity>
 
             </View>
