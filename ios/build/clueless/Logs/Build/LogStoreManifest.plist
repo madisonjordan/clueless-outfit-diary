@@ -5,6 +5,65 @@
 	<key>logFormatVersion</key>
 	<integer>9</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>25BADACC-E196-4501-A913-190BE610CED4</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>25BADACC-E196-4501-A913-190BE610CED4.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>clueless project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>clueless</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project clueless with scheme clueless and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>576290730.45066905</real>
+			<key>timeStoppedRecording</key>
+			<real>576290732.103544</real>
+			<key>title</key>
+			<string>Building project clueless with scheme clueless and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>25BADACC-E196-4501-A913-190BE610CED4</string>
+		</dict>
+		<key>F367FF5A-32DE-4904-B954-35ECD43B2E3C</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F367FF5A-32DE-4904-B954-35ECD43B2E3C.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>clueless project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>clueless</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project clueless with scheme clueless and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>576290594.83233702</real>
+			<key>timeStoppedRecording</key>
+			<real>576290598.08566201</real>
+			<key>title</key>
+			<string>Building project clueless with scheme clueless and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>F367FF5A-32DE-4904-B954-35ECD43B2E3C</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
