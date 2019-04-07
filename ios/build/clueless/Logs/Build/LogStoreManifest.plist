@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>9715AA96-FB6C-4098-92AB-F0C9F79D733C</key>
+		<key>BB6C90C2-5933-4330-945F-2D680B5D8435</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>9715AA96-FB6C-4098-92AB-F0C9F79D733C.xcactivitylog</string>
+			<string>BB6C90C2-5933-4330-945F-2D680B5D8435.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>W</string>
 			<key>schemeIdentifier-containerName</key>
@@ -27,42 +27,13 @@
 			<key>signature</key>
 			<string>Building project clueless with scheme clueless and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>576354308.27067399</real>
+			<real>576358962.38370395</real>
 			<key>timeStoppedRecording</key>
-			<real>576354310.36766899</real>
+			<real>576358964.34965003</real>
 			<key>title</key>
 			<string>Building project clueless with scheme clueless and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>9715AA96-FB6C-4098-92AB-F0C9F79D733C</string>
-		</dict>
-		<key>F0A37B54-9C33-4BFA-8D67-7B40438BAD16</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>F0A37B54-9C33-4BFA-8D67-7B40438BAD16.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>W</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>clueless project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>clueless</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Building project clueless with scheme clueless and configuration Debug</string>
-			<key>timeStartedRecording</key>
-			<real>576321249.97127604</real>
-			<key>timeStoppedRecording</key>
-			<real>576321251.80620098</real>
-			<key>title</key>
-			<string>Building project clueless with scheme clueless and configuration Debug</string>
-			<key>uniqueIdentifier</key>
-			<string>F0A37B54-9C33-4BFA-8D67-7B40438BAD16</string>
+			<string>BB6C90C2-5933-4330-945F-2D680B5D8435</string>
 		</dict>
 	</dict>
 </dict>

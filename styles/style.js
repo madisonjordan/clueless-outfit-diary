@@ -13,7 +13,7 @@ const style = StyleSheet.create({
         flexDirection: 'column',
         justifyContent: 'flex-start',
         alignItems: 'center',
-        height: 1000,
+        //height: 1000,
     },
     safeArea:{
         flex: 1,
