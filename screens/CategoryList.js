@@ -1,22 +1,67 @@
 import React, { Component } from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, SafeAreaView } from 'react-native';
+import { View, Text, TouchableOpacity, SafeAreaView, ScrollView, Image } from 'react-native';
 import style from '../styles/style';
 import NavBar from '../components/NavBar';
-import LinearGradient from 'react-native-linear-gradient';
+//import Datastore from 'react-native-local-mongodb';
+
+var Datastore = require('react-native-local-mongodb'), outfitDb = new Datastore({ filename: 'outfits', autoload: true });
+var Datastore = require('react-native-local-mongodb'), categoryDb = new Datastore({ filename: 'categories', autoload: true });
+var Datastore = require('react-native-local-mongodb'), tagDb = new Datastore({ filename: 'tags', autoload: true });
+
 export default class CategoryList extends React.Component{
     constructor(props){
         super(props);
+
+        this.state = {
+            outfits: [],
+            categories: [],
+            tags: [],
+        };
+
+        this.reloadDatabases.bind(this);
+    }
+
+    componentDidMount(){
+        this.reloadDatabases();
+    }
+
+    reloadDatabases(){
+        outfitDb.loadDatabase(function(err){
+            let outfits = outfitDb.find({}, function(err, docs){
+                this.setState({
+                    outfits: docs
+                });
+            }.bind(this));
+        }.bind(this));
+
+        // categoryDb.loadDatabase(function(err){
+        //    let categories = categoryDb.find({}, function(err, docs){
+        //         this.setState({
+        //             categories: docs,
+        //         });
+        //     }.bind(this)); 
+        // }.bind(this));
+        // tagDb.loadDatabase(function(err){
+        //     let tags = tagDb.find({}, function(err, docs){
+        //         this.setState({
+        //             tags: docs,
+        //         });
+        //     }.bind(this));
+        // }.bind(this));
     }
 
     render(){
+
+        var outfits = this.state.outfits.map( (doc) => (<Image source={{uri: doc.image}} style={{height: 300, width: 300, resizeMode: 'contain'}}/>));
+
         return(
-
-
-            
-// Within your render function
             <SafeAreaView style={style.container}>
                 <View style={style.container}>
-                    <Text>Category List Screen</Text>
+                    <Text style={{fontSize: 30, color: 'white'}}>Outfits</Text>
+
+                    <ScrollView contentContainerstyle={style.scrollView}>
+                        {outfits}
+                    </ScrollView>
                 </View>
 
                 <NavBar navigation={this.props.navigation} />
@@ -24,18 +69,3 @@ export default class CategoryList extends React.Component{
         );
     }
 }
-const styles = StyleSheet.create({
-    saveButton:{
-        flex: 1,
-        // IDK how to get the text in the center of the button :(
-        maxHeight: '10%',
-        padding: '3%',
-        margin: '1%',
-        backgroundColor: 'white',
-        borderRadius: 20,
-    },
-    saveButtonText:{
-        fontSize: 20,
-        color: 'white',
-    },
-});

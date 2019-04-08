@@ -6,6 +6,14 @@ import Icon from 'react-native-vector-icons/dist/Feather';
 import SelectMultiple from 'react-native-select-multiple'
 import TextInputWrapper from '../components/TextInputWrapper';
 import Dialog from "react-native-dialog";
+//import Datastore from 'react-native-local-mongodb';
+
+var Datastore = require('react-native-local-mongodb')
+, outfitDb = new Datastore({ filename: 'outfits', autoload: true });
+var Datastore = require('react-native-local-mongodb')
+, categoryDb = new Datastore({ filename: 'categories', autoload: true });
+var Datastore = require('react-native-local-mongodb')
+, tagDb = new Datastore({ filename: 'tags', autoload: true });
 
 const defaultImg = require('../images/default-outfit.jpg');
 const imagePickerOptions = {
@@ -19,7 +27,9 @@ export default class EditOutfit extends React.Component{
         this.state={
             imageUri: '',
             allCategories: [],
+            newCategories: [],
             allTags: [],
+            newTags: [],
             categories: [],
             tags: [],
             newTag: '',
@@ -29,26 +39,8 @@ export default class EditOutfit extends React.Component{
     }
 
     componentDidMount(){
-        let tags = [
-            'sexy',
-            'kawaii',
-            'purple',
-            'modest',
-        ];
-
-        let categories = [
-            'work',
-            'sport',
-            'winter',
-        ];
-
-        this.setState({
-            allTags: tags
-        });
-
-        this.setState({
-            allCategories: categories
-        });
+        this.getCategories();
+        this.getTags();
     }
 
     render(){
@@ -130,6 +122,32 @@ export default class EditOutfit extends React.Component{
         this.setState({newCategory: ''});
     }
 
+    getCategories(){
+        categoryDb.find({}, function(err, docs){
+            this.setState({allCategories: docs});
+        }.bind(this));
+    }
+
+    updateCategories(){
+        let newCategories = this.state.newCategories;
+        for(let c of newCategories){
+            categoryDb.insert(c);
+        }
+    }
+
+    getTags(){
+        tagDb.find({}, function(err, docs){
+            this.setState({allTags: docs})
+        }.bind(this));
+    }
+
+    updateTags(){
+        let newTags = this.state.newTags;
+        for(let t of newTags){
+            tagDb.insert(t);
+        }
+    }
+
     addNewCategory(){
         let newCategory = this.state.newCategory;
         if(!newCategory || newCategory == ''){
@@ -144,6 +162,12 @@ export default class EditOutfit extends React.Component{
         let currentAllCategories = this.state.allCategories;
         currentAllCategories.unshift(newCategory);
         this.setState({categories: currentAllCategories});
+
+        let newCategories = this.state.newCategories;
+        newCategories.unshift(newCategories);
+        this.setState({
+            newCategories: newCategories
+        });  
 
         // Add to allCategories global list
 
@@ -168,6 +192,11 @@ export default class EditOutfit extends React.Component{
             allTags: currentAllTags
         });
 
+        let newTags = this.state.newTags;
+        newTags.unshift(newTag);
+        this.setState({
+            newTags: newTags
+        });        
         // Add to allTags global list
     }
 
@@ -184,7 +213,27 @@ export default class EditOutfit extends React.Component{
     }
 
     pressSave(){
-        this.props.navigation.goBack();
+        if(!this.state.imageUri || this.state.imageUri == ''){
+            alert(`Please select an image for your outfit`);
+            return;
+        }
+
+        let newOutfit = {
+            image: this.state.imageUri,
+            tags: this.state.tags,
+            categories: this.state.categories,
+        };
+
+        outfitDb.insert(newOutfit, function(error, newDoc){
+            if(error){
+                alert(`Failed to insert outfit into the database:\n${error}\n`);
+                return;
+            }         
+    
+            this.updateTags();
+            this.updateCategories();
+            this.props.navigation.goBack();
+        }.bind(this));
     }
 
     pressCamera(){
