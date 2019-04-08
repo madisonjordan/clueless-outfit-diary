@@ -15,10 +15,7 @@
     "react-native-image-picker": "^0.28.1",
     "react-native-linear-gradient": "^2.5.4",
     "react-native-local-mongodb": "^2.2.9",
-<<<<<<< HEAD
-=======
     "react-native-modal": "^9.0.0",
->>>>>>> 8c094921bc8eb0f7ef5281d4ed46a1f2d6c7edc8
     "react-native-select-multiple": "^1.2.0",
     "react-native-vector-icons": "^6.4.2",
     "react-navigation": "^3.6.1"
